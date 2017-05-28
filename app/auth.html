@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        html { font-family: -apple-system, Roboto, Arial, sans-serif; }
+        * { box-sizing: border-box; }
+        input { width: 100%; padding: 5px 10px; }
+        div { text-align: center; margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+<script>
+    var ipcRenderer = require('electron').ipcRenderer
+    window.sendData = function (event, login, pass) {
+        event.preventDefault()
+        ipcRenderer.send('autothanks.auth', {
+            login: login.value,
+            pass: pass.value
+        })
+        document.getElementById('note').innerText = 'request sent'
+    }
+    ipcRenderer.on('allGood', function () {
+        window.close()
+    })
+    ipcRenderer.on('allBad', function () {
+        document.getElementById('note').innerText = 'wrong login or password\n' +
+                'ò̱r͙͜ ̤̤̮̟̹̫͉͢w̪̻͙͎͔͕͎or̠̼̀ͅs̬͍e͓̖̤'
+    })
+</script>
+<form onsubmit="sendData(event, login, pass)">
+    <div>Your password and login are NOT saved, only cookies</div>
+    <div><input type="text" id="login" placeholder="Login" autofocus/></div>
+    <div><input type="password" id="pass" placeholder="password"/></div>
+    <div><input type="submit" value="submit"/></div>
+    <div id="note" style="font-size: 14px"></div>
+</form>
+</body>
+</html>

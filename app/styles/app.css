@@ -1,0 +1,64 @@
+.app {
+    display: flex;
+    overflow: auto;
+    height: 100vh;
+    min-height: 300px;
+    width: 100vw;
+    background: linear-gradient(to bottom, #F1F0EF 0, #D2D0D3 10rem);
+}
+
+.app_main {
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.app_main_controls {
+    border-bottom: 1px solid #B6B4B7;
+    flex-shrink: 0;
+    -webkit-app-region: drag;
+}
+
+.app_main_tasks {
+    display: flex;
+    overflow: auto;
+    flex-grow: 1;
+}
+
+.app_main_actions {
+    flex-shrink: 0;
+    border-top: 1px solid #B6B4B7;
+    background: #F7F7F7;
+}
+
+.app_side {
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    flex: 0 0 auto;
+    width: 20rem;
+    border-left: 1px solid #B6B4B7;
+}
+
+.app_side_settings {
+    border-bottom: 1px solid #B6B4B7;
+    flex: 0 0 auto;
+    -webkit-app-region: drag;
+}
+
+.app_side_settings--expanded {
+    flex: 1;
+    border-bottom: none;
+}
+
+.app_side_preview {
+    flex: 1;
+    position: relative;
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    justify-content: center;
+    background: #F7F7F7;
+}

@@ -1,0 +1,2045 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<list id="1">
+
+  <imgHost id="2">
+    <name>imageeer.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="3">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+    <postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName></imgHost>
+  
+  <imgHost id="4">
+    <name>imgs.it</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+  
+
+  <imgHost id="5">
+    <name>imgclick.net</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="6">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName></imgHost>
+  
+  <imgHost id="7">
+    <name>imgsee.me</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="8">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+  
+  <imgHost id="9">
+    <name>imgspice.com</name>
+    <imagePattern>img[onload=ghisthendsx()]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[onload=ghisthendsx()]</fileName>
+  </imgHost>
+  
+  <imgHost id="10">
+    <name>imgbox.com</name>
+    <imagePattern>img[id=img]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>title|img[id=img]</fileName>
+  </imgHost>
+  
+  <imgHost id="11">
+    <name>imgchili.net</name>
+    <imagePattern>img#show_image</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img#show_image</fileName></imgHost>
+  
+  <imgHost id="12">
+    <name>imgchili.com</name>
+    <imagePattern>img#show_image</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img#show_image</fileName></imgHost>
+  
+  <imgHost id="13">
+    <name>imgbabes.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+  
+  <imgHost id="14">
+    <name>imagebam.com</name>
+    <imagePattern>img[class=image]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class=image]</fileName>
+  </imgHost>
+  
+  <imgHost id="15">
+    <name>imgcandy.net</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="16">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="17">
+    <name>imgspot.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="18">
+    <name>imgserve.net</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="19">
+    <name>xxxupload.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="20">
+    <name>imgrex.com</name>
+    <imagePattern>img[id=cursor_lupa]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="21">
+      <entry>
+        <string>clic</string>
+        <string>input[name=clic]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName></fileName>
+  </imgHost>
+  
+  <imgHost id="22">
+    <name>imgbanana.com</name>
+    <imagePattern>img[id=cursor_lupa]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="23">
+      <entry>
+        <string>clic</string>
+        <string>input[name=clic]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[id=cursor_lupa]</fileName>
+  </imgHost>
+  
+  <imgHost id="24">
+    <name>pixhost.org</name>
+    <imagePattern>img[id=show_image]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[id=show_image]</fileName>
+  </imgHost>
+  
+  <imgHost id="25">
+    <name>hosturimage.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="26">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="27">
+    <name>imagevenue.com</name>
+    <imagePattern>img[id=thepic]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[id=thepic]</fileName>
+  </imgHost>
+  
+   <imgHost id="28">
+    <name>ocaload.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="29">
+    <name>gogoimage.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="30">
+    <name>imgmod.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="31">
+    <name>img.yt</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="32">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="33">
+    <name>imgtiger.com</name>
+    <imagePattern>img[onclick=scale(this);]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[onclick=scale(this);]</fileName>
+  </imgHost>
+  
+  <imgHost id="34">
+    <name>imgflare.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+  
+  <imgHost id="35">
+    <name>imgtwyti.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="36">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="37">
+    <name>dragimage.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="38">
+    <name>imgtaxi.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="39">
+    <name>imgdino.com</name>
+    <imagePattern>img[onclick=scale(this);]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[onclick=scale(this);]</fileName>
+  </imgHost>
+  
+  <imgHost id="40">
+    <name>madimage.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName></fileName>
+  </imgHost>
+  
+  <imgHost id="41">
+    <name>imageophilia.com</name>
+    <imagePattern>img[id=full_image]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[id=full_image]</fileName>
+  </imgHost>
+  
+  <imgHost id="42">
+    <name>imgpaying.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+  
+  <imgHost id="43">
+    <name>pixtreat.com</name>
+    <imagePattern>img[id=img_obj]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[id=img_obj]</fileName>
+  </imgHost>
+  
+  <imgHost id="44">
+    <name>pixroute.com</name>
+    <imagePattern>img[onload=ghisthendsx()]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[onload=ghisthendsx()]</fileName>
+  </imgHost>
+  
+  <imgHost id="45">
+    <name>paidimg.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+  
+  <imgHost id="46">
+    <name>imgtube.net</name>
+    <imagePattern>img[id=image]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="47">
+      <entry>
+        <string>continue_to_image</string>
+        <string>input.continue_to_image</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[id=image]</fileName>
+  </imgHost>
+  
+  <imgHost id="48">
+    <name>imagefast.org</name>
+    <imagePattern>img[id=full_image]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName></fileName>
+  </imgHost>
+  
+  <imgHost id="49">
+    <name>imagegaga.net</name>
+    <imagePattern>img[id=full_image]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[id=full_image]</fileName>
+  </imgHost>
+  
+  <imgHost id="50">
+    <name>imagenimage.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+  
+  <imgHost id="51">
+    <name>imagenpic.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+  
+  <imgHost id="52">
+    <name>imageshimage.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+  
+  <imgHost id="53">
+    <name>imagetwist.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+  <imgHost id="54">
+    <name>img-zone.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="55">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="56">
+    <name>imgadult.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName></fileName>
+  </imgHost>
+  
+  <imgHost id="57">
+    <name>imgcoin.net</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="58">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+    <postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="59">
+    <name>imgfeel.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="60">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="61">
+    <name>imagecorn.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="62">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="63">
+    <name>imgget.net</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="64">
+    <name>imgpit.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="65">
+    <name>imgrun.net</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="66">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="67">
+    <name>imgstudio.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="68">
+    <name>stooorage.com</name>
+    <imagePattern>img[onclick=scale(this);]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[onclick=scale(this);]</fileName>
+  </imgHost>
+  
+  <imgHost id="69">
+    <name>turboimagehost.com</name>
+    <imagePattern>img[class=upimage]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[class=upimage]</fileName>
+  </imgHost>
+  
+  <imgHost id="70">
+    <name>damimage.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[alt=image]</fileName>
+  </imgHost>
+  
+  <imgHost id="74">
+    <name>postimg.org</name>
+    <imagePattern>img[src*=postimg]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName></fileName>
+  </imgHost>
+  
+  <imgHost id="72">
+    <name>imageontime.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="73">
+    <name>picexposed.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+  
+  <imgHost id="74">
+    <name>imagedecode.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="75">
+    <name>imgmonster.eu</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="76">
+    <name>gallerynova.se</name>
+    <imagePattern>a[target=_blank]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>href|a[target=_blank]</fileName>
+  </imgHost>
+  
+  <imgHost id="77">
+    <name>imgmega.com</name>
+    <imagePattern>img[onload=scaleImg(this)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="78">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+    <postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[onload=scaleImg(this)]</fileName>
+  </imgHost>
+  
+  <imgHost id="79">
+    <name>sharenxs.com</name>
+    <imagePattern>img[class=view_photo]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class=view_photo]</fileName>
+  </imgHost>
+  
+  <imgHost id="80">
+    <name>image18.org</name>
+    <imagePattern>img[id=picture]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[id=picture]</fileName>
+  </imgHost>
+  
+  <imgHost id="87">
+    <name>imgrock.net</name>
+    <imagePattern>img[class=pic]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="82">
+      <entry>
+        <string>op</string>
+        <string>regex:name="op" value="(.*?)"</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>regex:name="id" value="(.*?)"</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>regex:name="pre" value="(.*?)"</string>
+      </entry>
+      <entry>
+        <string>regex:value="1"&gt;&lt;input type="hidden" name="(.+?)" value="1"&gt;&lt;input type="submit"</string>
+        <string>regex:value="(.+?)"&gt;&lt;input type="submit" name="next"</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>regex:name="next" value="(.*?)"</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class=pic]</fileName>
+  </imgHost>
+  
+  <imgHost id="83">
+    <name>piclove.in</name>
+    <imagePattern>img[class=pic]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[class=pic]</fileName>
+  </imgHost>
+  
+  <imgHost id="84">
+    <name>pimpandhost.com</name>
+    <imagePattern>img[id=image]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[id=image]</fileName>
+  </imgHost>
+  
+  <imgHost id="85">
+    <name>imagezilla.net</name>
+    <imagePattern>img[id=photo]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[id=photo]</fileName>
+  </imgHost>
+  
+  <imgHost id="86">
+    <name>imgnext.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="87">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="88">
+    <name>imagesaholic.com</name>
+    <imagePattern>img[id=full_image]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[id=full_image]</fileName>
+  </imgHost>
+  
+  <imgHost id="89">
+    <name>ImageFolks.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="90">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="91">
+    <name>pixhub.eu</name>
+    <imagePattern>img[onload=ustaw(100000);]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[onload=ustaw(100000);]</fileName>
+  </imgHost>
+  
+  <imgHost id="92">
+    <name>ahcabron.info</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="93">
+    <name>idolwall.com</name>
+    <imagePattern>img[class=mainImage img-thumbnail]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[class=mainImage img-thumbnail]</fileName>
+  </imgHost>
+  
+  <imgHost id="94">
+    <name>postimage.org</name>
+    <imagePattern>link[rel=image_src]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>href|link[rel=image_src]</fileName>
+  </imgHost>
+  
+  <imgHost id="95">
+    <name>imgdevil.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="96">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="97">
+    <name>imgview.net</name>
+    <imagePattern>img[class=pic]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="98">
+      <entry>
+        <string>op</string>
+        <string>regex:name="op" value="(.*?)"</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>regex:name="id" value="(.*?)"</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>regex:name="pre" value="(.*?)"</string>
+      </entry>
+      <entry>
+        <string>regex:value="1"&gt;&lt;input type="hidden" name="(.+?)" value="1"&gt;&lt;input type="submit"</string>
+        <string>regex:value="(.+?)"&gt;&lt;input type="submit" name="next"</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>regex:name="next" value="(.*?)"</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class=pic]</fileName>
+  </imgHost>
+  
+  <imgHost id="99">
+    <name>pixxx.me</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="100">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="101">
+    <name>fastpic.ru</name>
+    <imagePattern>img[id=image]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[id=image]</fileName>
+  </imgHost>
+  
+  <imgHost id="102">
+    <name>img4all.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="103">
+    <name>gokoimage.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="104">
+    <name>imageteam.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+   <imgHost id="105">
+    <name>uploadrr.com</name>
+    <imagePattern>img[onload=scaleImg(this)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="106">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+    <postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[onload=scaleImg(this)]</fileName>
+  </imgHost>
+  
+  <imgHost id="107">
+    <name>imageon.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="108">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="109">
+    <name>picshare.ru</name>
+    <imagePattern>img[id=image]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[id=image]</fileName>
+  </imgHost>
+  
+  <imgHost id="110">
+    <name>imgzap.com</name>
+    <imagePattern>img[onclick=scale(this);]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[onclick=scale(this);]</fileName>
+  </imgHost>
+  
+  <imgHost id="111">
+    <name>hosturimage.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="112">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="113">
+    <name>imgxxx.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="114">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+  
+  <imgHost id="115">
+    <name>imgtrex.com</name>
+    <imagePattern>img[onload=scaleImg(this)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[onload=scaleImg(this)]</fileName>
+  </imgHost>
+
+<imgHost id="116">
+    <name>imageleon.com</name>
+    <imagePattern>img[id=full_image]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[id=full_image]</fileName>
+  </imgHost>
+
+<imgHost id="117">
+    <name>picshareunit.com</name>
+    <imagePattern>img[id=thepic]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[id=thepic]</fileName>
+  </imgHost>
+
+<imgHost id="118">
+    <name>gallerysense.se</name>
+    <imagePattern>a[target=_blank]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>href|a[target=_blank]</fileName>
+  </imgHost>
+
+<imgHost id="119">
+    <name>chronos.to</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="120">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+    <postParams2 id="234">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams2>
+  <postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="121">
+    <name>truepic.org</name>
+    <imagePattern>a[target=_blank]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>href|a[target=_blank]</fileName>
+  </imgHost>
+
+<imgHost id="122">
+    <name>image.re</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+
+<imgHost id="123">
+    <name>imgdoggy.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+
+<imgHost id="124">
+    <name>2drive.net</name>
+    <imagePattern>a[href*=/img/]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="125">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="126">
+    <name>imgvun.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="127">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="128">
+    <name>imageporter.com</name>
+    <imagePattern>img[onload=ghisthendsx()]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[onload=ghisthendsx()]</fileName>
+</imgHost>
+
+<imgHost id="129">
+    <name>ericsony.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="130">
+    <name>imgtrial.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="131">
+    <name>dimtus.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="132">
+    <name>upurimg.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="133">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="134">
+    <name>fapic.me</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+
+<imgHost id="135">
+    <name>uplimg.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+
+
+<imgHost id="136">
+    <name>imgupload.yt</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+
+
+<imgHost id="137">
+    <name>imgmaze.com</name>
+    <imagePattern>img[class=pic]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="138">
+      <entry>
+        <string>op</string>
+        <string>regex:name="op" value="(.*?)"</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>regex:name="id" value="(.*?)"</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>regex:name="pre" value="(.*?)"</string>
+      </entry>
+      <entry>
+        <string>regex:value="1"&gt;&lt;input type="hidden" name="(.+?)" value="1"&gt;&lt;input type="submit"</string>
+        <string>regex:value="(.+?)"&gt;&lt;input type="submit" name="next"</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>regex:name="next" value="(.*?)"</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class=pic]</fileName>
+  </imgHost>
+
+<imgHost id="139">
+    <name>leechimg.com</name>
+    <imagePattern>img[id=full_image]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>alt|img[id=full_image]</fileName>
+  </imgHost>
+
+<imgHost id="140">
+    <name>picttator.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+
+<imgHost id="141">
+    <name>imaaage.com</name>
+    <imagePattern>img[src*=imaaage]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[src*=imaaage]</fileName>
+  </imgHost>
+
+<imgHost id="142">
+    <name>imgnimz.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="143">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="144">
+    <name>imgzeus.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="145">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="146">
+    <name>pic-upload.de</name>
+    <imagePattern>img[class^=preview_picture]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class^=preview_picture]</fileName>
+  </imgHost>
+
+<imgHost id="147">
+    <name>pixup.us</name>
+    <imagePattern>img[class^=centred_resized]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="148">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class^=centred_resized]</fileName>
+</imgHost>
+
+<imgHost id="149">
+    <name>imgflip.com</name>
+    <imagePattern>img[id=im]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[id=im]</fileName>
+  </imgHost>
+
+<imgHost id="150">
+    <name>imgor.net</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+
+<imgHost id="151">
+    <name>imgtea.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="152">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="153">
+    <name>imglil.com</name>
+    <imagePattern>img[src*=imglil]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="154">
+      <entry>
+        <string>1</string>
+        <string>input[name=1]</string>
+      </entry>
+      <entry>
+        <string>2</string>
+        <string>input[name=2]</string>
+      </entry>
+      <entry>
+        <string>3</string>
+        <string>input[name=3]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[src*=imglil]</fileName>
+  </imgHost>
+
+<imgHost id="155">
+    <name>anonpics.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="156">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="157">
+    <name>extraimg.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="158">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="159">
+    <name>img4ever.net</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+
+<imgHost id="160">
+    <name>imgbb.net</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="161">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="162">
+    <name>imgboom.net</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+
+<imgHost id="163">
+    <name>imgdrive.co</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="164">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="165">
+    <name>imgwel.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="166">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+
+<imgHost id="167">
+    <name>imzdrop.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="168">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="169">
+    <name>naughtyimages.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="170">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="171">
+    <name>cuteimg.cc</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="172">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+    <postParams2 id="173">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams2>
+    <postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="174">
+    <name>imgdiamond.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="175">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="176">
+    <name>imageupper.com</name>
+    <imagePattern>img[onclick=scaleImg('img');]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[onclick=scaleImg('img');]</fileName>
+  </imgHost>
+
+<imgHost id="177">
+    <name>imageontime.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+
+
+<imgHost id="178">
+    <name>imgease.re</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="179">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="180">
+    <name>myimg.club</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="181">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+    <postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="182">
+    <name>foxyimg.link</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="183">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+    <postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="184">
+    <name>imggo.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="185">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+  
+<imgHost id="186">
+    <name>imagetrum.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="187">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="188">
+    <name>sexybabepics.net</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="189">
+    <name>erimge.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="190">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="191">
+    <name>fapat.me</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="192">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="193">
+    <name>fireimg.cc</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="194">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="195">
+    <name>imgflash.net</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="196">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="197">
+    <name>imgsen.se</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="198">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="199">
+    <name>rapidimg.net</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="200">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="201">
+    <name>moar-imagez.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>ALT|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="202">
+    <name>megaimage.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+
+<imgHost id="203">
+    <name>pic-maniac.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="204">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="205">
+    <name>imgowk.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="206">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="207">
+    <name>awsmpic.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+
+<imgHost id="208">
+    <name>imgtiger.org</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="209">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="210">
+    <name>photolot.org</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+  </imgHost>
+
+<imgHost id="211">
+    <name>365-img.com</name>
+    <imagePattern>link[rel=image_src]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>href|link[rel=image_src]</fileName>
+  </imgHost>
+
+<imgHost id="212">
+    <name>imgve.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="213">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="214">
+    <name>imgtown.net</name>
+    <imagePattern>img[class=pic]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="215">
+      <entry>
+        <string>op</string>
+        <string>regex:name="op" value="(.+?)"</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>regex:name="id" value="(.+?)"</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>regex:name="pre" value="(.+?)"</string>
+      </entry>
+      <entry>
+        <string>regex:value="1"&gt;&lt;input type="hidden" name="(.+?)" value="1"&gt;&lt;input type="submit"</string>
+        <string>regex:value="(.+?)"&gt;&lt;input type="submit" name="next"</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>regex:name="next" value="(.*?)"</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img[class=pic]</fileName>
+  </imgHost>
+
+<imgHost id="216">
+    <name>imgdragon.com</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="217">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>adb</string>
+        <string>input[id=adb]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="218">
+    <name>imagepearl.com</name>
+    <imagePattern>img[name=image]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[name=image]</fileName>
+  </imgHost>
+
+<imgHost id="219">
+    <name>imgz.pw</name>
+    <imagePattern>img[class=code_image]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[class=code_image]</fileName>
+  </imgHost>
+
+<imgHost id="220">
+    <name>img-pay.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="221">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="222">
+    <name>imgpack.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="223">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="224">
+    <name>imgmaid.net</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="225">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+     <postParams2 id="237">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams2>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="226">
+    <name>imgbig.com</name>
+    <imagePattern>img[class~=(centred|centred_resized)]</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="227">
+      <entry>
+        <string>imgContinue</string>
+        <string>input[name=imgContinue]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>src|img[class~=(centred|centred_resized)]</fileName>
+</imgHost>
+
+<imgHost id="228">
+    <name>ironimg.net</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="229">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="230">
+    <name>coreimg.net</name>
+    <imagePattern>img.pic</imagePattern>
+    <imageAction>NEED_POST</imageAction>
+    <postParams id="231">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams>
+    <postParams2 id="236">
+      <entry>
+        <string>op</string>
+        <string>input[name=op]</string>
+      </entry>
+      <entry>
+        <string>id</string>
+        <string>input[name=id]</string>
+      </entry>
+      <entry>
+        <string>pre</string>
+        <string>input[name=pre]</string>
+      </entry>
+      <entry>
+        <string>next</string>
+        <string>input[name=next]</string>
+      </entry>
+    </postParams2>
+	<postUrl>#imageUrl#</postUrl>
+  <fileName>alt|img.pic</fileName>
+  </imgHost>
+
+<imgHost id="232">
+    <name>image-bugs.com</name>
+    <imagePattern>link[rel=image_src]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>content|meta[property=og:title]</fileName>
+  </imgHost>
+
+<imgHost id="233">
+    <name>piclambo.net</name>
+    <imagePattern>img[onload=ghisthendsx()]</imagePattern>
+    <imageAction>NEED_NOTHING</imageAction>
+  <fileName>src|img[onload=ghisthendsx()]</fileName>
+  </imgHost>
+
+<imgHost id="235">
+    <name>dumppix.com</name>
+    <imagePattern>img[class=selected]</imagePattern>
+    <imageAction>NEED_GET</imageAction>
+    <redirectUrlPattern>a[href*=viewer]</redirectUrlPattern>
+  <fileName>alt|a[href*=viewer]</fileName>
+  </imgHost>
+
+</list>

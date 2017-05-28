@@ -1,0 +1,99 @@
+{
+  "name": "vripperx",
+  "description": "VRipper X v0.03",
+  "author": {
+    "name": "Isana"
+  },
+  "private": true,
+  "version": "0.0.3",
+  "main": "src/main.js",
+  "dependencies": {
+    "async": "^2.4.0",
+    "cheerio": "^0.22.0",
+    "classnames": "^2.2.5",
+    "electron-simple-updater": "^1.2.0",
+    "file-type": "^4.3.0",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "electron": "^1.6.7",
+    "electron-builder": "^17.5.0",
+    "electron-builder-squirrel-windows": "^17.6.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.1",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.1"
+  },
+  "build": {
+    "appId": "vipergirls.vripperx",
+    "productName": "VRipper X",
+    "asar": true,
+    "protocols": [
+      {
+        "name": "Viper Ripper URL",
+        "schemes": [
+          "vr"
+        ]
+      }
+    ],
+    "files": [
+      "app",
+      "build",
+      "src",
+      "node_modules"
+    ],
+    "linux": {
+      "target": "AppImage",
+      "category": "Network",
+      "executableName": "vripperx",
+      "icon": "assets/"
+    },
+    "mac": {
+      "target": "default",
+      "category": "public.app-category.utility",
+      "icon": "assets/logo.icns"
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "win": {
+      "target": "squirrel",
+      "icon": "assets/logo.ico"
+    },
+    "squirrelWindows": {
+      "iconUrl": "https://gitlab.com/tanuki/vripper-x/raw/master/assets/logo.ico"
+    }
+  },
+  "updater": {
+    "url": "https://gitlab.com/tanuki/vripper-x/raw/master/updates.json"
+  },
+  "scripts": {
+    "debug": "NODE_ENV=dev electron .",
+    "build:mac": "build --mac",
+    "build:linux:64": "build --linux --x64",
+    "build:linux:32": "build --linux --ia32",
+    "build:win:64": "build --win --x64",
+    "build:win:32": "build --win --ia32"
+  }
+}

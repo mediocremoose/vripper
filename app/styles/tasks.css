@@ -1,0 +1,124 @@
+.tasks {
+    flex: 1 1 auto;
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+}
+
+.tasks_head {
+    flex-shrink: 0;
+    height: 1.5rem;
+    background: #F0F0F0;
+    display: flex;
+    border-bottom: 1px solid #c0c0c0;
+    padding: 1px 3px;
+}
+
+.tasks_head_item {
+    line-height: 1.4rem;
+    padding: 0 1.5rem;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.tasks_head_item:nth-child(1) {
+    flex: 1 1 auto;
+}
+
+.tasks_head_item:nth-child(2) {
+    width: 10rem;
+    flex: 0 0 auto;
+    text-align: center;
+    border-left: 1px solid #D6D6D6;
+}
+
+.tasks_head_item:nth-child(3) {
+    width: 3rem;
+    flex: 0 0 auto;
+    border-left: 1px solid #D6D6D6;
+}
+
+.tasks_list {
+    flex: 1 1 auto;
+}
+
+.tasks_list,
+.tasks_list_content {
+    background: repeating-linear-gradient(to bottom,
+    #f5f5f5 0.1rem,
+    #f5f5f5 2.1rem,
+    #ffffff 2.1rem,
+    #ffffff 4.1rem);
+}
+
+.tasks_list_content {
+    padding: 0.1rem 0.25rem;
+}
+
+.tasks_row {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    overflow: auto;
+}
+
+.tasks_row:hover {
+    cursor: pointer;
+    box-shadow: 0 0 2px 1px #2199e8;
+}
+
+.tasks_row_item {
+    position: relative;
+}
+
+.tasks_row_item_toggle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1.5rem;
+    font-size: 0.8rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #6D6D6D;
+    cursor: pointer;
+}
+
+.tasks_row_item_title {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 1.5rem;
+    color: #242424;
+}
+
+.tasks_row_item_title--sub {
+    padding-left: 1.5rem;
+}
+
+.tasks_row_item:nth-child(1) {
+    position: relative;
+    flex: 1 1 auto;
+    line-height: 2rem;
+    font-size: 0.8rem;
+    display: flex;
+    overflow: auto;
+}
+
+.tasks_row_item:nth-child(2) {
+    width: 10rem;
+    padding: 0.375rem 1rem;
+    flex: 0 0 auto;
+}
+
+.tasks_row_item:nth-child(3) {
+    width: 3rem;
+    flex: 0 0 auto;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.tasks_row_item:nth-child(3) > i {
+    margin: 0 3px;
+}

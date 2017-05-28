@@ -1,0 +1,15 @@
+.idea
+node_modules
+playground.js
+build
+npm-debug.log*
+.DS_Store
+# app persistance
+_settings.json
+_state.json
+
+# logs
+# *.log
+# .npm
+# .node_repl_history
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        html {
+            overflow: hidden;  /* prevent over-scrolling on mac os */
+            height: 100%;
+            font-family: -apple-system, Roboto, Arial, sans-serif;
+        }
+        body {
+            height: 100%;
+            overflow: auto;
+        }
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+        *, *:before, *:after {
+            box-sizing: border-box;
+        }
+    </style>
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script src="../build/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.import-dialogue {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+}
+
+.import-dialogue textarea {
+  flex-grow: 1;
+  width: 100%;
+  margin: 1em;
+}
+
+.import-dialogue button {
+  flex-grow: 0;
+}

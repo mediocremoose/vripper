@@ -1,0 +1,30 @@
+.progress {
+    height: 1.25rem;
+    line-height: 1.1rem;
+    position: relative;
+    z-index: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border: 1px solid #404040;
+    overflow: hidden;
+}
+
+.progress_err {
+    color: #6F1126;
+}
+
+.progress_bar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.progress_bar--done {
+    background: #3adb76;
+}
+
+.progress_bar--err {
+    background: #ec5840;
+}

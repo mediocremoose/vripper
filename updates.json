@@ -1,0 +1,32 @@
+{
+  "linux-x64-prod": {
+    "readme": "Third Release",
+    "update": "https://gitlab.com/tanuki/vripper-x/raw/master/releases/linux-64/vripperx-0.0.3-x86_64.AppImage",
+    "install": "https://gitlab.com/tanuki/vripper-x/raw/master/releases/linux-64/vripperx-0.0.3-x86_64.AppImage",
+    "version": "0.0.3"
+  },
+  "linux-ia32-prod": {
+    "readme": "Third Release",
+    "update": "https://gitlab.com/tanuki/vripper-x/raw/master/releases/linux-32/vripperx-0.0.3-ia32.AppImage",
+    "install": "https://gitlab.com/tanuki/vripper-x/raw/master/releases/linux-32/vripperx-0.0.3-ia32.AppImage",
+    "version": "0.0.3"
+  },
+  "win32-x64-prod": {
+    "readme": "Third Release",
+    "update": "https://gitlab.com/tanuki/vripper-x/raw/master/releases/win-64",
+    "install": "https://gitlab.com/tanuki/vripper-x/raw/master/releases/win-64/VRipper%20X%20Setup%200.0.3.exe",
+    "version": "0.0.3"
+  },
+  "win32-ia32-prod": {
+    "readme": "Third Release",
+    "update": "https://gitlab.com/tanuki/vripper-x/raw/master/releases/win-32",
+    "install": "https://gitlab.com/tanuki/vripper-x/raw/master/releases/win-32/VRipper%20X%20Setup%200.0.3.exe",
+    "version": "0.0.3"
+  },
+  "darwin-x64-prod": {
+    "readme": "Third Release",
+    "update": "https://gitlab.com/tanuki/vripper-x/raw/master/releases/macos/release.json",
+    "install": "https://gitlab.com/tanuki/vripper-x/raw/master/releases/macos/VRipper%20X-0.0.3.dmg",
+    "version": "0.0.3"
+  }
+}

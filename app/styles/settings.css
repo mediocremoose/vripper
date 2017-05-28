@@ -1,0 +1,88 @@
+.settings {
+    padding: 2rem 1rem 1rem;
+}
+
+.settings_toggle {
+    outline: 0;
+    width: 100%;
+    -webkit-appearance: none;
+    background: #F7F7F7;
+    border: 1px solid #cacaca;
+    cursor: pointer;
+    height: 2.4375rem;
+    font-size: 1rem;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out, color 0.25s ease-in-out;
+    color: #8a8a8a;
+    -webkit-app-region: no-drag;
+}
+
+.settings_toggle:hover {
+    box-shadow: 0 0 5px #cacaca;
+    border: 1px solid #8a8a8a;
+    color: #0a0a0a;
+}
+
+.settings_main {
+    margin: 1rem 0;
+    -webkit-app-region: no-drag;
+}
+
+.settings_check {
+    display: block;
+    overflow: auto;
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+.settings_check:hover {
+    text-shadow: 0 0 2px rgba(0, 0, 0, .3);
+}
+
+.settings_check_input {
+    margin-right: 0.5rem;
+}
+
+.settings_root {
+    margin-top: 1rem;
+}
+
+.settings_root_wrap {
+    display: flex;
+}
+
+.settings_root_val {
+    display: block;
+    height: 2.4375rem;
+    padding: 0.5rem;
+    border: 1px solid #cacaca;
+    font-size: 1rem;
+    color: #0A0A2E;
+    background-color: #fefefe;
+    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+    border-radius: 0;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    margin: 0;
+}
+
+.settings_root_val:focus {
+    border: 1px solid #8a8a8a;
+    background-color: #fefefe;
+    outline: none;
+    box-shadow: 0 0 5px #cacaca;
+}
+
+.settings_root_set {
+    outline: 0;
+    margin-left: 0.25rem;
+    padding: 0 1em;
+}
+
+.settings_version {
+    margin-top: 1rem;
+}
+
+.update_check {
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+}

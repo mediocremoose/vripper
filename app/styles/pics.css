@@ -1,0 +1,74 @@
+.pics {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    bottom: 0;
+    border-top: 1px solid #e6e6e6;
+}
+
+.pics_items {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    overflow: scroll;
+}
+
+.pics_items--pagination {
+    bottom: 2rem;
+}
+
+.pics_item {
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 0.3rem;
+    padding-left: 0.5rem;
+    border-left: 2px solid #e6e6e6;
+    cursor: pointer;
+}
+
+.pics_item--err {
+    border-left: 2px solid #ec5840;
+}
+
+.pics_item--saved {
+    border-left: 2px solid #3adb76;
+}
+
+.pics_pagination {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    font-family: monospace;
+    font-weight: bold;
+    border-top: 1px solid #e6e6e6;
+}
+
+.pics_pagination_arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 40%;
+    cursor: pointer;
+}
+
+.pics_pagination_arrow:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.pics_pagination_arrow--left {
+    left: 0;
+}
+
+.pics_pagination_arrow--right {
+    right: 0;
+}

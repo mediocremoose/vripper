@@ -1,0 +1,32 @@
+.actions {
+    display: flex;
+    overflow: auto;
+    height: 100%;
+    padding: 0.25rem;
+    justify-content: space-around;
+}
+
+.actions_btn {
+    cursor: pointer;
+    border: 1px solid #cacaca;
+    background: #FFFFFF;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out, color 0.25s ease-in-out;
+    color: #0A0A2E;
+    padding: 0.5rem 1rem;
+    line-height: 1;
+    outline: 0;
+    margin: 0.25rem;
+    width: 33%;
+    max-width: 240px;
+    -webkit-appearance: none;
+}
+
+.actions_btn:hover,
+.actions_btn:focus {
+    box-shadow: 0 0 5px #cacaca;
+}
+
+.actions_btn--clip_on {
+    border-color: #017A2E;
+    color: #017A2E;
+}

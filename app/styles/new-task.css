@@ -1,0 +1,41 @@
+.new-task-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0.5rem 1rem;
+}
+
+.new-task {
+    flex: 1;
+    margin: auto;
+}
+
+.new-task_url {
+    display: block;
+    width: 100%;
+    height: 2.4375rem;
+    padding: 0.5rem;
+    border: 1px solid #cacaca;
+    font-size: 1rem;
+    color: #0A0A2E;
+    background-color: #fefefe;
+    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+    border-radius: 0;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    margin: 0;
+    -webkit-app-region: no-drag;
+}
+
+.new-task_url:focus {
+    border: 1px solid #8a8a8a;
+    background-color: #fefefe;
+    outline: none;
+    box-shadow: 0 0 5px #cacaca;
+}
+
+.new-task_bulk {
+    flex: 0 1 16%;
+    margin: auto !important;
+    height: 2.4375rem;
+    padding: 0em 0.1em !important
+}
