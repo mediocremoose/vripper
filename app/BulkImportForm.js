@@ -13,7 +13,7 @@ class BulkImportDialogue extends React.Component {
 
   onImportClick () {
     const rawText = this.refs.urls.value
-    const urls = rawText.length > 0 ? rawText.split("\n") : []
+    const urls = rawText.length > 0 ? rawText.replace(/[\r\n]+/g,'\n').split("\n") : []
     if (urls.length > 0)
       ipcRenderer.send('TaskManager.bulkImportUrls', urls)
     // because clicks propagate to the parent, clicking import automagically

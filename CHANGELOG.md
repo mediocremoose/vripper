@@ -1,3 +1,8 @@
+## v0.03 (May 25th, 2017)
+ - Added bulk link importing
+ - Ensured support for recently unbanned hosts (depic, imagevenue, picsee, imagezilla, and imagebam)
+
+
 ## v0.02 (May 16th, 2017)
  - Added support for pimpandhost
  - Implemented updating

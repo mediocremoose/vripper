@@ -5,6 +5,7 @@ const _ = require('lodash')
 const React = require('react')
 const { shell } = require('electron')
 const cn = require('./cn')
+const isWin32 = (navigator.platform == 'Win32')
 
 const PAGE_SIZE = 100
 
@@ -27,7 +28,8 @@ class PicsList extends React.Component {
       return prefix + (pic.name || _.last(pic.file.split('/')))
     }
     if (pic.err) {
-      return prefix + (pic.err.message || pic.err.err || pic.err || 'Error')
+      const errorMsg = pic.err.err?((typeof pic.err.err == 'object')?pic.err.err.code+(pic.err.options.url?': '+pic.err.options.url:''):pic.err.err):null;
+      return prefix + (pic.err.message || errorMsg || pic.err || 'Error')
     }
     return prefix + pic.origin
   }
@@ -38,6 +40,11 @@ class PicsList extends React.Component {
     } else {
       shell.openExternal(pic.origin || pic.src)
     }
+  }
+
+  onPickCopy(e, pic){
+    e.clipboardData.setData('text/plain', JSON.stringify(pic,null,'  '));
+    e.preventDefault(); // We want our data, not data from any selection, to be written to the clipboard
   }
 
   pageLeft () {
@@ -70,6 +77,7 @@ class PicsList extends React.Component {
               <div
                 className={cn('pics_item', { err: pic.err, saved: pic.file })}
                 onDoubleClick={() => this.onPickDoubleClick(pic)}
+                onCopy={e => this.onPickCopy(e, pic)}
                 title={name}
                 key={index}
               >{name}</div>

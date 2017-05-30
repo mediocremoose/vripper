@@ -6,7 +6,8 @@ const cn = require('./cn')
 const dialog = require('electron').remote.dialog
 const { ipcRenderer } = require('electron')
 const { remote } = require('electron')
-const currentVersion = require('electron').remote.app.getVersion()
+const versionRe = /^(\d\.)?(\d)(\.)?(\d)$/g
+const currentVersion = require('electron').remote.app.getVersion().replace(versionRe, '$1$2$4')
 const updater = remote.require('electron-simple-updater')
 
 class Settings extends React.Component {
@@ -91,7 +92,7 @@ class Settings extends React.Component {
       <div className='settings_version'>
         <label>Current version: <span id="version">v{currentVersion}</span></label>
         <div className='settings_version_wrap'>
-          <button 
+          <button
             className='update_check'
             onClick={this.updateCheck.bind(this)}
           >Check for Update</button>

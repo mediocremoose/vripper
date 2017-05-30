@@ -8,6 +8,7 @@ const { shell } = require('electron')
 const store = require('./clientStore')
 const Progress = require('./Progress')
 const PicsList = require('./PicsList')
+const isWin32 = (navigator.platform == 'Win32')
 
 class Preview extends React.Component {
   constructor (props) {
@@ -104,7 +105,7 @@ class Preview extends React.Component {
             >
               <i className='fa fa-2x fa-folder-open-o' />
               <div className='album_info_folder_name'>
-                {_.last(target.dest.split('/'))}
+                {_.last(target.dest.split(isWin32 ? '\\' : '/'))}
               </div>
             </div>
           }
