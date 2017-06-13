@@ -14,30 +14,32 @@ const Qs = new Map()
 const jar = request.jar()
 
 /**
- * Queue task handler
+ * Queue task handler (AsyncFunction)
  * @param {Object} task
  * @param {function} queueCallback
  */
 const processRequest = (task, queueCallback) => {
+  // We attempt to get a successful response REQUEST_RETRY_LIMIT times
   async.retry(REQUEST_RETRY_LIMIT, (retryCallback) => {
     request(task.options, retryCallback)
+  // Processing, after succesful response or failed last request
   }, (err, resp) => {
-    if (err) {
+    if (err) { // failed to get response
       task.reject({
         source: 'qRequest/processRequest: request callback error',
         options: task.options,
         err
       })
-    } else if (resp.statusCode !== 200) {
+    } else if (resp.statusCode !== 200) { // response was, but it was unsuccessful nature
       task.reject({
         source: 'qRequest/processRequest: statusCode check',
         err: `bad status code: ${resp.statusCode} ${resp.statusMessage}`,
         options: task.options
       })
-    } else {
+    } else { // we had succsessful response
       task.resolve(resp)
     }
-    setTimeout(queueCallback, (2 * REQUEST_INT_BASE * Math.random() | 0))
+    setTimeout(queueCallback, (2 * REQUEST_INT_BASE * Math.random() | 0)) // We give system some time
   })
 }
 
@@ -48,6 +50,7 @@ const processRequest = (task, queueCallback) => {
  * @returns {Promise}
  */
 const qRequest = (options, priority) => new Promise((resolve, reject) => {
+    // declare data object for request
   _.defaultsDeep(options, {
     timeout: 30 * 1000,
     gzip: true,
@@ -60,6 +63,7 @@ const qRequest = (options, priority) => new Promise((resolve, reject) => {
   // remove low level domain name e.g. 'img123' from 'img123.domain.com'
   const host = URL.parse(options.url)
     .hostname.replace(/^[a-z]{1,3}\d{2,3}\./i, '')
+  // domain based requests queue
   if (!Qs.has(host)) {
     Qs.set(host, async.priorityQueue(processRequest, REQUEST_CONCURRENCY))
   }

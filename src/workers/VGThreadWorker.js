@@ -7,26 +7,25 @@ const save = require('../tools/save')
 const store = require('../store')
 const settings = store.data._
 
-function makeThreadDest (id, page, title) {
+function makeThreadDest (id, page, title, suffix) {
   page = page ? '_' + page : ''
-  const prefix = settings.prefixThread ? `vg${id}${page} ` : ''
-  return save.makePath(store.data._.root, [prefix + title])
+  const prefix = settings.prefixMain ? `vg${id}${page} ` : ''
+  return save.makePath(store.data._.root, [prefix + title + suffix])
 }
 
-function makePostDest (onePost, threadDest, index, title) {
+function makePostDest (onePost, threadDest, postobj) {
+  const {index, title, id} = postobj;
   if (onePost || !settings.subfolders) {
     return threadDest
   }
-  const prefix = `post ${index} - `
+
+  const prefix = settings.prefixPost ? `post ${index} - ` : '';
+  const suffix = settings.suffixPost ? ` ${id}` : '';
   const placeholder = `post ${index}`
   if (!title) {
-    return save.makePath(threadDest, [placeholder])
+    return save.makePath(threadDest, [placeholder + suffix])
   }
-  if (settings.prefixPost) {
-    return save.makePath(threadDest, [prefix + title])
-  } else {
-    return save.makePath(threadDest, [title])
-  }
+  return save.makePath(threadDest, [prefix + title + suffix])
 }
 
 class VGThreadWorker extends AbstractWorker {
@@ -42,7 +41,7 @@ class VGThreadWorker extends AbstractWorker {
   static preload (task) {
     return ViperGirls.load(task.url).then((thread) => {
       const onePost = thread.posts.length === 1
-      const dest = makeThreadDest(task.id, task.page, thread.title)
+      const dest = makeThreadDest(thread.id, thread.page, thread.title, onePost ? ` ${thread.posts[0].id}` : '')
       let total = 0
 
       // create subtasks
@@ -55,13 +54,14 @@ class VGThreadWorker extends AbstractWorker {
           index: post.index,
           thanks: post.thanks,
           url: ViperGirls.makePostURL(post.id),
-          dest: makePostDest(onePost, dest, post.index, post.title)
+          dest: makePostDest(onePost, dest, post)
         }, post.pics).$id
       })
 
       return store.updateItem(task, {
         $sub: posts,
         title: thread.title,
+        forum: thread.forum,
         id: thread.id,
         page: thread.page,
         uiExpand: !onePost,

@@ -11,7 +11,7 @@ const cleanFilename = require('./cleanFilename')
  * @returns {string} resolved path
  */
 const makePath = (root, folders) => {
-  return path.resolve(root, (folders || []).map(cleanFilename).join('/'))
+  return path.resolve(root, (folders || []).map(cleanFilename).join(path.sep))
 }
 
 /**
