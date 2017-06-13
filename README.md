@@ -7,7 +7,7 @@ and provide routine maintanence.
  - Clipboard monitoring
  - Support `vr:t=123` links on MacOS
  - Checking for duplicate tasks
- - Setting and state are saved in `~/.VRipper` (gzipped JSON)
+ - Setting and state are saved in `~/.VRipper X` (gzipped JSON)
  - File size filter (files below 10KB considered garbage)
  - Clean thread names from garbage
  - Only posts with 3 or more pictures considered worthy downloading
@@ -59,7 +59,7 @@ Default **true**.
 Default **true**.
 
 #### Choose root download folder
-Default **~/VRipper**.
+Default **~/VRipper X**.
 
 ## Build Dependencies
  - Node.js
