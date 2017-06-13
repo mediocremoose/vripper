@@ -7,6 +7,7 @@ const React = require('react')
 const cn = require('./cn')
 const store = require('./clientStore')
 const Progress = require('./Progress')
+const isWin32 = (navigator.platform == 'Win32')
 
 class TaskList extends React.Component {
   constructor (props) {
@@ -73,7 +74,7 @@ class TaskList extends React.Component {
     const hasProgress = !task.$$preloading && task.pTotal > 0
     const title = task.$$preloading
       ? `loading: ${task.url}`
-      : (task.isPreloaded ? (task.title || _.last(task.dest.split('/'))) : task.url)
+      : (task.isPreloaded ? (task.title || _.last(task.dest.split(isWin32 ? '\\' : '/'))) : task.url)
 
     return [
       <div
