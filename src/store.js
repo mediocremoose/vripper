@@ -110,7 +110,7 @@ const saveToFile = (filePath) => {
       // do not save null values
       // do not save $$keys
       JSON.stringify({meta, data}, (key, value) => {
-        if (key.substr(0, 2) !== '$$' && value !== null) {
+        if (key.substr(0, 2) !== '$$' && value !== null && key !== '_jar') {
           return value
         }
       })
