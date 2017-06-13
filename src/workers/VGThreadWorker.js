@@ -41,7 +41,7 @@ class VGThreadWorker extends AbstractWorker {
   static preload (task) {
     return ViperGirls.load(task.url).then((thread) => {
       const onePost = thread.posts.length === 1
-      const dest = makeThreadDest(thread.id, thread.page, thread.title, onePost ? ` ${thread.posts[0].id}` : '')
+      const dest = makeThreadDest(thread.id, thread.page, thread.title, (onePost && settings.suffixPost) ? ` ${thread.posts[0].id}` : '')
       let total = 0
 
       // create subtasks
