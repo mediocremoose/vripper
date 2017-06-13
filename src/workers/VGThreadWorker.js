@@ -7,10 +7,12 @@ const save = require('../tools/save')
 const store = require('../store')
 const settings = store.data._
 
-function makeThreadDest (id, page, title, suffix) {
-  page = page ? '_' + page : ''
+function makeThreadDest (thread, suffix){
+  const {id, title, forum} = thread
+  let page = thread.page ? '_' + thread.page : ''
   const prefix = settings.prefixMain ? `vg${id}${page} ` : ''
-  return save.makePath(store.data._.root, [prefix + title + suffix])
+  const forumsub = settings.forumFolder ? forum : ''
+  return save.makePath(store.data._.root, [forumsub, prefix + title + suffix])
 }
 
 function makePostDest (onePost, threadDest, postobj) {
@@ -41,7 +43,8 @@ class VGThreadWorker extends AbstractWorker {
   static preload (task) {
     return ViperGirls.load(task.url).then((thread) => {
       const onePost = thread.posts.length === 1
-      const dest = makeThreadDest(thread.id, thread.page, thread.title, (onePost && settings.suffixPost) ? ` ${thread.posts[0].id}` : '')
+      thread.title = thread.title.replace(/([^\x00-\x7F])/g,'-'); // UTF8 special chars
+      const dest = makeThreadDest(thread, (onePost && settings.suffixPost) ? ` ${thread.posts[0].id}` : '')
       let total = 0
 
       // create subtasks
