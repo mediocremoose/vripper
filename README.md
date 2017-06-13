@@ -58,6 +58,10 @@ Default **true**.
 #### Prefix subfolders with post index
 Default **true**.
 
+#### Ignore duplicate tasks
+Default **false**.
+Ignores tasks already in list.
+
 #### Choose root download folder
 Default **~/VRipper X**.
 
