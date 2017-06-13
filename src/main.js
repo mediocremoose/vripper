@@ -89,6 +89,8 @@ defaults(store.data._, {
   prefixSub: false,
   prefixFile: true,
   ignoreDouble: false,
+  forumFolder: false,
+  suffixPost: false,
   subfolders: true,
   vgCookies: null
 })
