@@ -124,6 +124,7 @@ class Settings extends React.Component {
             {this.makeCheckbox('subfolders', 'Make subfolders for posts')}
             {!!data.subfolders &&
               this.makeCheckbox('prefixSub', 'Prefix subfolders (post 7 - )')}
+            {this.makeCheckbox('ignoreDouble', 'Ignore duplicate tasks')}
             {this.getDownloadRoot()}
             {this.getVersion()}
           </div>
