@@ -57,6 +57,9 @@ const parseThreadPage = (html) => {
 
   // get title
   const threadTitle = cleanTitle($('.threadtitle').first().text())
+    
+  // forum name where thread is
+  const forumName = $('.breadcrumb li:nth-last-child(2)').text()
 
   // get all posts with images
   const contentPosts = []
@@ -113,7 +116,8 @@ const parseThreadPage = (html) => {
   return {
     pages: numberOfPages,
     posts: contentPosts,
-    title: threadTitle
+    title: threadTitle,
+    forum: forumName
   }
 }
 
