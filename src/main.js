@@ -88,6 +88,7 @@ defaults(store.data._, {
   prefixMain: false,
   prefixSub: false,
   prefixFile: true,
+  ignoreDouble: false,
   subfolders: true,
   vgCookies: null
 })

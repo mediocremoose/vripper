@@ -1,7 +1,6 @@
 .tasks {
     flex: 1 1 auto;
     display: flex;
-    overflow: scroll;
     flex-direction: column;
 }
 
@@ -34,13 +33,15 @@
 }
 
 .tasks_head_item:nth-child(3) {
-    width: 3rem;
+    width: 4.25rem;
     flex: 0 0 auto;
     border-left: 1px solid #D6D6D6;
 }
 
 .tasks_list {
     flex: 1 1 auto;
+    overflow-x: hidden;
+    overflow-y: scroll;    
 }
 
 .tasks_list,
@@ -122,3 +123,4 @@
 .tasks_row_item:nth-child(3) > i {
     margin: 0 3px;
 }
+
