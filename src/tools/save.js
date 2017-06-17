@@ -18,7 +18,7 @@ const makePath = (root, folders) => {
  * @param {Object} file - object containing data of file
  * @param {string} file.name
  * @param {buffer} file.data - binary file data (image / video)
- * @param {?string} file.prefix
+ * @param {string} [file.prefix]
  * @param {string} dest - directory
  * @returns {Promise.<string>} if success, Path to saved file (absolute) else err object
  */
