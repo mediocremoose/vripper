@@ -58,6 +58,9 @@ const parseThreadPage = (html) => {
   // get title
   const threadTitle = cleanTitle($('.threadtitle').first().text())
 
+  // forum name where thread is
+  const forumName = $('.breadcrumb li:nth-last-child(2)').text()
+
   // get all posts with images
   const contentPosts = []
   $('.postcontainer').each((i, post) => {
@@ -87,7 +90,7 @@ const parseThreadPage = (html) => {
       $post.find('.postbody .postcontent > img').each((i, img) => {
         const src = $(img).attr('src')
         // only external images
-        if (src.substr(0, 4) === 'https') {
+        if (/^https/i.test(src)) {
           pics.push(src)
         }
       })
@@ -113,7 +116,8 @@ const parseThreadPage = (html) => {
   return {
     pages: numberOfPages,
     posts: contentPosts,
-    title: threadTitle
+    title: threadTitle,
+    forum: forumName
   }
 }
 
@@ -127,7 +131,7 @@ const parseURL = (url) => {
     return { threadId: +matchThread[1] }
   }
 
-  // test for custom protocol for thread
+  // test for custom protocol for post
   const postMatch = /vr:p=(\d+)/i.exec(url)
   if (postMatch && postMatch[1]) {
     return { postId: +postMatch[1] }

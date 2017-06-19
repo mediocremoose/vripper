@@ -121,9 +121,13 @@ class Settings extends React.Component {
             {this.makeCheckbox('originalName', 'Search for original filename')}
             {this.makeCheckbox('prefixFile', 'Prefix images (012 - )')}
             {this.makeCheckbox('prefixMain', 'Prefix task folder (vg1234)')}
+            {this.makeCheckbox('forumFolder', 'Add tasks in sub forum folders')}         
             {this.makeCheckbox('subfolders', 'Make subfolders for posts')}
             {!!data.subfolders &&
               this.makeCheckbox('prefixSub', 'Prefix subfolders (post 7 - )')}
+            {!!data.subfolders &&
+              this.makeCheckbox('suffixPost', 'Add suffix for the posts (postid)')}         
+            {this.makeCheckbox('ignoreDouble', 'Ignore duplicate tasks')}
             {this.getDownloadRoot()}
             {this.getVersion()}
           </div>

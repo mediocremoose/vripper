@@ -3,6 +3,7 @@
 const _ = require('lodash')
 const store = require('./store')
 const registry = require('./WorkerRegistry')
+const settings = store.data._
 
 _.defaults(store.data._, { tasks: [] })
 const tasks = store.data._.tasks
@@ -46,6 +47,7 @@ class TaskManager {
 
       if (tasksByUID[uid]) {
         console.log('duplicate task', url)
+        if (settings.ignoreDouble) return null
       }
 
       const newTask = worker.create({

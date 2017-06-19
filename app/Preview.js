@@ -49,6 +49,11 @@ class Preview extends React.Component {
     }
   }
 
+  onCopyText(e, text){
+    e.clipboardData.setData('text/plain', text);
+    e.preventDefault(); // We want our data, not data from any selection, to be written to the clipboard
+  }
+
   renderSummary () {
     const tasks = store._.tasks
     const progress = { pTotal: 0, pDone: 0, pErr: 0 }
@@ -90,6 +95,7 @@ class Preview extends React.Component {
           <div
             className='preview_album_info_id'
             title={'Open: ' + target.url}
+            onCopy={e => this.onCopyText(e, target.url)}
             onClick={() => this.openLink(target.url)}
           >
             <i className='fa fa-2x fa-link' />
@@ -101,6 +107,7 @@ class Preview extends React.Component {
             <div
               className='preview_album_info_folder'
               title={'Open: ' + target.dest}
+              onCopy={e => this.onCopyText(e, target.dest)}
               onClick={() => this.openFolder(target.dest)}
             >
               <i className='fa fa-2x fa-folder-open-o' />

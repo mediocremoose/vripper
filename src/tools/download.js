@@ -40,7 +40,10 @@ const download = (options, priority) => {
       return Promise.reject(`File too small, probably dummy, ${options.url}`)
     }
     const filename = getFilenameFromHeaders(resp.headers) || getFilenameFromPath(resp.request.path)
-    const type = fileType(resp.body)
+    const type = fileType(resp.body) 
+    if (!type) {
+      return Promise.reject(`Unknown file type, ${options.url}`)
+    }
     return {
       data: resp.body,
       name: filename,
