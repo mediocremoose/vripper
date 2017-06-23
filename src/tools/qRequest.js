@@ -34,7 +34,8 @@ const processRequest = (task, queueCallback) => {
       task.reject({
         source: 'qRequest/processRequest: statusCode check',
         err: `bad status code: ${resp.statusCode} ${resp.statusMessage}`,
-        options: task.options
+        options: task.options,
+        statusCode: resp.statusCode
       })
     } else { // we had succsessful response
       task.resolve(resp)
