@@ -18,7 +18,7 @@ class AbstractWorker {
   static makeUID (url) {
     const parsed = this.parseURL(url)
     if (parsed && !parsed.err) {
-      return this.type + JSON.stringify(parsed)
+      return this.type + JSON.stringify(parsed, (key, val) => {if (val) return val})
     }
   }
 
